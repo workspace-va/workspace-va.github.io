@@ -1,7 +1,7 @@
 .service-preview {
     display: inline-block; /* Makes multiple previews display side-by-side */
-    width: 200px; /* Adjust width as needed */
-    height: 150px; /* Adjust height as needed */
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
     background-color: #f2f2f2; /* Light gray background */
     border: 1px solid #ddd; /* Light gray border */
     cursor: pointer; /* Changes cursor to pointer on hover */
