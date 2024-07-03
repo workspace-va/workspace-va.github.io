@@ -1,0 +1,66 @@
+{
+  "Name": "Jesson Famentera",
+  "JobRoles": [
+    "Developer",
+    "Analyst"
+  ],
+  "BusinessTypes": [
+    "Branding",
+    "Online Support",
+    "Ecommerce",
+    "Content Publisher",
+    "Lead Generation",
+    "Online Community"
+  ],
+  "IsOptedInToEmails": true,
+  "CourseProgress": [
+    {
+      "CourseName": "Google Analytics for Beginners",
+      "StartDate": 20240516,
+      "CourseCompleted": true,
+      "CertificateDate": 20240524,
+      "AssessmentsProgress": [
+        {
+          "Title": "Assessment 1",
+          "Passed": true
+        },
+        {
+          "Title": "Assessment 2",
+          "Passed": true
+        },
+        {
+          "Title": "Assessment 3",
+          "Passed": true
+        },
+        {
+          "Title": "Assessment 4",
+          "Passed": true
+        }
+      ]
+    },
+    {
+      "CourseName": "Advanced Google Analytics",
+      "StartDate": 20240524,
+      "CourseCompleted": true,
+      "CertificateDate": 20240524,
+      "AssessmentsProgress": [
+        {
+          "Title": "Assessment 1",
+          "Passed": true
+        },
+        {
+          "Title": "Assessment 2",
+          "Passed": true
+        },
+        {
+          "Title": "Assessment 3",
+          "Passed": true
+        },
+        {
+          "Title": "Assessment 4",
+          "Passed": true
+        }
+      ]
+    }
+  ]
+}

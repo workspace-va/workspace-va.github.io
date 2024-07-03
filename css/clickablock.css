@@ -1,0 +1,27 @@
+.service-preview {
+    display: inline-block; /* Makes multiple previews display side-by-side */
+    width: 200px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    background-color: #f2f2f2; /* Light gray background */
+    border: 1px solid #ddd; /* Light gray border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    margin: 10px; /* Add spacing between previews */
+    text-align: center; /* Center text content */
+  }
+  
+  .service-preview img {
+    max-width: 100%; /* Image scales to fit box */
+    max-height: 100%; /* Image scales to fit box */
+    display: block; /* Image fills the entire box width */
+  }
+  
+  .service-preview p {
+    margin-top: 10px; /* Space between image and text */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

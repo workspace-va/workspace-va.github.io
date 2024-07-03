@@ -1,0 +1,30 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container2 {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills2 {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.python {width: 70%; background-color: #adbb8b;}
+.canva {width: 80%; background-color: #487c9e;}
+.asana {width: 90%; background-color: #642f54;}
+.php {width: 85%; background-color: #399999;}
+.qbdt {width: 70%; background-color: #3b1420;}
+.qbo {width: 85%; background-color: #1c751c;}
+.qbop {width: 100%; background-color: #41424d;}
+.xero {width: 65%; background-color: #96751cd2;}
+.travel {width: 70%; background-color: #c4bc4bd2;}
+.ai {width: 85%; background-color: #1c963bd2;}
