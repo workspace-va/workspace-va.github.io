@@ -1,44 +1,23 @@
-@keyframes animateGradient {
-    0% {
-      background: linear-gradient(to right, #ff4b2b, #ff416c, #ff4b2b, #ff7519, #ffb900); /* Start with orange */
-    }
-    3% {  /* New color combination at 3% */
-      background: linear-gradient(to right, #ffb900, #ffdf00, #ffe033, #ffc107, #ff9900);
-    }
-    6% {  /* New color combination at 6% */
-      background: linear-gradient(to right, #ff9900, #ffd200, #ffeb00, #ffe433, #ffc700);
-    }
-    9% { /* New color combination at 9% */
-        background: linear-gradient(to right, #ffc700, #ffe033, #ffe966, #ffe299, #ffd6cd);
-      }
-    12% { /* New color combination at 12% */
-        background: linear-gradient(to right, #ffd6cd, #ffe833, #ffe166, #ffda99, #ffe3ce);
-      }
-    15% { /* New color combination at 15% */
-        background: linear-gradient(to right, #ffe3ce, #ffe166, #ffda99, #ffe833, #ffe666);
-      }
-    18% { /* New color combination at 18% */
-        background: linear-gradient(to right, #ffe666, #ffda99, #ffe833, #ffe166, #ffe999);
-      }
-    21% { /* New color combination at 21% */
-        background: linear-gradient(to right, #ffe999, #ffe833, #ffe166, #ffe9cc, #ffeb00);
-      }
-    24% { /* New color combination at 24% */
-        background: linear-gradient(to right, #ffeb00, #ffdf00, #ffe033, #ffc107, #ff9900);
-      }
-    27% { /* New color combination at 27% */
-        background: linear-gradient(to right, #ffb900, #ffdf00, #ffe033, #ffc107, #ff9900); /* Same as 3% */
-      }
-    30% { /* New color combination at 30% */
-        background: linear-gradient(to right, #ff9900, #ffd200, #ffeb00, #ffe433, #ffc700); /* Same as 6% */
-      }
-    33% { /* New color combination at 33% */
-        background: linear-gradient(to right, #ffc700, #ffe033, #ffe966, #ffe299, #ffd6cd); /* Same as 9% */
-      }
-    36% { /* New color combination at 36% */
-        background: linear-gradient(to right, #ffd6cd, #ffe833, #ffe166, #ffda99, #ffe3ce); /* Same as 12% */
-      }
-    39% { /* New color combination at 39% */
-        background: linear-gradient(to right, #ffce00, #ffd200, #ffda99, #ffe3ce, #ffe6ff);
-      }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrappergradient {
+  height: 100vh;
+  background: linear-gradient(45deg, red, purple, orange, yellow, crimson) 0 0 / 1000% no-repeat;
+  animation: animate 7s ease infinite; /* Vendor prefix added */
+}
+
+
+@keyframes animate {
+  0% {
+    background-position: 0 30%, 0 0; /* Removed duplicate 0 0 */
+  }
+  50% {
+    background-position: 100% 70%, 0 0; /* Removed duplicate 0 0 */
+  }
+  100% {
+    background-position: 0 30%, 0 0; /* Removed duplicate 0 0 */
+  }
 }
