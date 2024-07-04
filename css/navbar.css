@@ -14,6 +14,7 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  z-index: 2;
 }
 
 /* Add a red background color to navigation links on hover */
@@ -28,7 +29,7 @@
   left: 0;
   background-color: rgb(51, 54, 46);
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Style the subnav links */

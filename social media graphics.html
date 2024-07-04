@@ -14,16 +14,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Jesson">
-	<meta name="description" content="Logo and Branding">
+	  <meta name="description" content="Logo and Branding">
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/custom.min.css" />
-	<link rel="stylesheet" href="css/hire-me.css" />
-	<link rel="stylesheet" href="css/navbar.css" />
-	<link rel="stylesheet" href="css/clickablock.css" />
+	  <link rel="stylesheet" href="css/hire-me.css" />
+	  <link rel="stylesheet" href="css/navbar.css" />
+	  <link rel="stylesheet" href="css/clickablock.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
-	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
 		.intro h1:before {
 			content: 'Jesson';
@@ -69,7 +70,7 @@
                                 <button class="subnavbtn">Services Offered <i class="fa fa-caret-down"></i></button>
                                 <div class="subnav-content">
                                   <a href="EAservices.html">Executive Assistant</a><br>	
-                                  <a href="gdservices.html">Graphic Design</a><br>
+                                  <a href="GDservices.html">Graphic Design</a><br>
                                   <a href="#team">Social Media Management</a><br>
                                   <a href="#careers">Deep Research</a><br>
                                   <a href="#careers">Customer Relationship Management</a><br>
@@ -103,13 +104,46 @@
 		  <h5>&nbsp;</h5> <br>
 		  <h3>Social Media Graphics and Business Cards</h3>
 
-		  <div class="container">
-		  <img src="img/smg1.png" alt="Sample Social Media Graphics 1" style="width: 100%;">
-		  </div>
+             <!-- Slider main container -->
+             <section id="swiper-1">
+              <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><b>Business Card 1</b>
+                    <img src="img/smg1.png" alt="Social Media Graphics Slide 1"></div>
+                    <div class="swiper-slide"><b>Business Card 2</b>
+                    <img src="img/smg2.png" alt="Social Media Graphics Slide 2"></div>
+                    <div class="swiper-slide"><b>Sample Video Thumbnail 1</b>
+                    <img src="img/thumbnail1.png" alt="Social Media Graphics Slide 6"></div>
+                    <div class="swiper-slide"><b>Sample Video Thumbnail 2</b>
+                    <img src="img/thumbnail2.png" alt="Social Media Graphics Slide 7"></div>
+                    <div class="swiper-slide"><b>Sample Video Thumbnail 3</b>
+                    <img src="img/thumbnail3.png" alt="Social Media Graphics Slide 8"></div>
+                    <div class="swiper-slide"><b>Sample Video Thumbnail 4</b>
+                    <img src="img/thumbnail4.png" alt="Social Media Graphics Slide 9"></div>
+                    
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              
+          </section>
 
-		  <div class="container">
-		  	<img src="img/smg2.png" alt="Sample Social Media Graphics 2" style="width: 100%;">
-		  </div>
+          <section id="swiper-2">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+          <div class="swiper-slide"><b>Checklist 1 - Travel</b>
+            <img src="img/travelchecklist.png" alt="Social Media Graphics Slide 3"></div>
+            <div class="swiper-slide"><b>Checklist 2 - Daily</b>
+            <img src="img/dailychecklist.png" alt="Social Media Graphics Slide 4"></div>
+            <div class="swiper-slide"><b>Checklist 3 - Wedding</b>
+            <img src="img/weddingchecklist.png" alt="Social Media Graphics Slide 5"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      
+  </section>
+
 
 			<p>&nbsp;</p>
 			<p>In today's digital age, you might be wondering if brochures and flyers are still relevant for your business. Absolutely!  While digital marketing plays a crucial role, high-quality brochures and flyers can be powerful tools to grab attention, promote your brand, and ultimately drive sales. Let's explore some key benefits of incorporating brochures and flyers into your marketing strategy.</p>
@@ -149,14 +183,18 @@
 	<!-- Javascript -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/typed.min.js"></script>
-    <script src="js/kube.min.js"></script>
-    <script src="js/site.js"></script>
-    <script>
-		function newTyped(){}$(function(){$("#typed").typed({
-		// Change to edit type effect
-		strings: ["Bookkeeping", "Inbox Management", "QuickBooks Online", "Travel Itinerary", "Calendar Management", "AI Integration", "Data Analysis", "Deep Research"],
+  <script src="js/kube.min.js"></script>
+  <script src="js/site.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
-    </script>
+        <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 </html>
