@@ -19,7 +19,7 @@
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: rgb(51, 54, 46);
+  background-color: rgb(230, 110, 11);
 }
 
 /* Style the subnav content - positioned absolute */
