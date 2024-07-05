@@ -5,8 +5,8 @@
 
 .wrappergradient {
   height: 100vh;
-  background: linear-gradient(45deg, red, purple, orange, yellow, crimson) 0 0 / 1000% no-repeat;
-  animation: animate 7s ease infinite; /* Vendor prefix added */
+  background: linear-gradient(45deg, rgb(41, 3, 129), rgb(87, 0, 128), rgb(52, 1, 134), rgb(95, 1, 114), rgb(1, 24, 99)) 0 0 / 1000% no-repeat;
+  animation: animate 15s ease infinite; /* Vendor prefix added */
 }
 
 

@@ -1,4 +1,4 @@
 body {
   background: linear-gradient(to right, orange, rgb(160, 13, 160)); /* Initial orange background */
-  animation: animateGradient 10s ease-in-out infinite; /* Apply animation */
+  animation: animateGradient 30s ease-in-out infinite; /* Apply animation */
 }
