@@ -49,3 +49,9 @@
 .subnav:hover .subnav-content {
   display: block;
 }
+.always-visible-logo {
+  /* Logo styles here */
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
