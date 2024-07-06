@@ -24,6 +24,15 @@ body {
 .section .container2{
     position:relative
 }
+.container3{
+  margin:auto;
+  background-color: transparent;
+  max-width:710px;
+  padding:0 20px;
+}
+.section .container3{
+    position:relative
+}
 .containercard {
   height: 700px;
   display: flex;
