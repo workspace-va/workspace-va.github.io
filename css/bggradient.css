@@ -21,6 +21,9 @@ body {
   max-width:1100px;
   padding:0 20px;
 }
+.container2 .VAlogo{
+  position:relative
+}
 .section .container2{
     position:relative
 }
@@ -108,17 +111,17 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url('https://images.stockcake.com/public/d/b/5/db556a0c-b626-4ea4-81aa-8e1b23578327_large/focused-late-working-stockcake.jpg');
+  background-image: url('images/bookkeeping.jpg');
 }
 .card[for="c2"] {
-  background-image: url('https://images.stockcake.com/public/4/2/c/42c87ae8-c4fb-4849-8584-5807fc8bd0c4_large/digital-art-creation-stockcake.jpg');
+  background-image: url('images/developer.jpg');
 }
 .card[for="c3"] {
-  background-image: url('https://images.stockcake.com/public/c/1/4/c144742f-c1f2-4971-b9a0-76a36b381540_large/futuristic-technology-interaction-stockcake.jpg');
+  background-image: url('https://images.stockcake.com/public/7/a/2/7a211a3b-3646-4678-a384-e18f2337da96_large/social-media-time-stockcake.jpg');
 }
 .card[for="c4"] {
-  background-image: url('./img4.jpeg');
+  background-image: url('https://images.stockcake.com/public/d/b/5/db556a0c-b626-4ea4-81aa-8e1b23578327_large/focused-late-working-stockcake.jpg');
 }
 .card[for="c5"] {
-  background-image: url('./img4.jpeg');
+  background-image: url('');
 }
