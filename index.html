@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/custom.min.css" />
-	<link rel="stylesheet" href="css/skillbar.css" />
 	<link rel="stylesheet" href="css/bggradient.css" />
 	<link rel="stylesheet" href="css/animatebg.css" />
 	<link rel="stylesheet" href="css/navbar.css" />
-	<link rel="stylesheet" href="css/frosted.css" />
+	<link rel="stylesheet" href="css/swiperfrontpage.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -99,72 +99,29 @@
 	</div>
 
 
-	<div class="container2">
+	<div class="container4">
 		<br>
 		<div class="VAlogo">
 			<h2 class="font_2 wixui-rich-text__text" style="font-size:40px; line-height:1.2em;"><span style="font-size:40px;" class="wixui-rich-text__text"><span style="color: white;" class="wixui-rich-text__text"><span style="font-family:cinzel,serif;" class="wixui-rich-text__text"><span style="letter-spacing:0.35em;" class="wixui-rich-text__text">STREAMLINE YOUR WORKFLOW, BOOST YOUR IMPACT.</span></span></span></span></h2>
 		</div>
 	
-		<br>
-		<br>
-		<!--Animated Card-->
-		<div class="wrapper">
-			<div class="containercard">
-				<input type="radio" name="slide" id="c1" checked>
-				<label for="c1" class="card">
-					<div class="row">
-						<div class="icon">1</div>
-						<div class="description">
-							<h4>BOOKKEEPING</h4>
-							<p>Skilled and experienced individual with proven expertise in their field.</p>
-						</div>
-					</div>
-				</label>
-				<input type="radio" name="slide" id="c2" >
-				<label for="c2" class="card">
-					<div class="row">
-						<div class="icon">2</div>
-						<div class="description">
-							<h4>FULL STACK WEB DEVELOPMENT</h4>
-							<p>Gets better every day -
-							 stay tuned</p>
-						</div>
-					</div>
-				</label>
-				<input type="radio" name="slide" id="c3" >
-				<label for="c3" class="card">
-					<div class="row">
-						<div class="icon">3</div>
-						<div class="description">
-							<h4>SOCIAL MEDIA MANAGEMENT</h4>
-							<p>Help people all over the world</p>
-						</div>
-					</div>
-				</label>
-				<input type="radio" name="slide" id="c4" >
-				<label for="c4" class="card">
-					<div class="row">
-						<div class="icon">4</div>
-						<div class="description">
-							<h4>A.I. INTEGRATION</h4>
-							<p>Space engineering becomes
-							 more and more advanced</p>
-						</div>
-					</div>
-				</label>
-				<input type="radio" name="slide" id="c5" >
-				<label for="c5" class="card">
-					<div class="row">
-						<div class="icon">5</div>
-						<div class="description">
-							<h4>SEARCH ENGINE OPTIMIZATION</h4>
-							<p>Space engineering becomes
-							 more and more advanced</p>
-						</div>
-					</div>
-				</label>
-			</div>
-		</div>
+  <!-- Swiper -->
+       <!-- Slider main container -->
+       <section id="swiper-1">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><b>BOOKKEEPING</b>
+              <img src="css/images/bookkeeping.jpg" alt="Presentation Slide 1"></div>
+              <div class="swiper-slide"><b>WEB DEVELOPMENT</b>
+              <img src="css/images/developer.jpg" alt="Presentation Slide 2"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+
+
+
+
 	<!--Centered Text-->
 		<br>
 		<br>
@@ -174,7 +131,7 @@
 </div>
 </div>
 
-	<div class="container2">
+	<div class="container4">
 		<h1>Concept 2: Under Construction </h1>
 
 	</div>
@@ -196,14 +153,32 @@
 		</div>
 	</footer>
 
-
-
-
 	<!-- Javascript -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/typed.min.js"></script>
     <script src="js/kube.min.js"></script>
     <script src="js/site.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</script>
 	
 </body>
 </html>
