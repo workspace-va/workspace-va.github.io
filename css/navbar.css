@@ -51,7 +51,10 @@
 }
 .always-visible-logo {
   /* Logo styles here */
-  width: 100px;
-  height: auto;
+  width: 55px;
+  height: 55px;
   margin-right: 10px;
+  flex: 0 0 auto; /* Makes logo fixed-width and prevents shrinking */
+  margin-left: 20px; /* Adds a margin for spacing */
+  margin-top: 0px;
 }

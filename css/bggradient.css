@@ -1,5 +1,5 @@
 body {
-  background: white
+  background: white;
   animation: animateGradient 30s ease-in-out infinite; /* Apply animation */
 }
 .wrapper1 {
@@ -37,6 +37,16 @@ body {
   padding:0 20px;
 }
 .section .container4{
+    position:relative
+}
+.container5{
+    margin:auto;
+    max-width:1000px;
+    padding:0 20px;
+    display: flex;
+    align-items: center;
+  }
+  .section .container5{
     position:relative
 }
 .containercard {
