@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="css/custom-p.css" />
 	<link rel="stylesheet" href="css/navbar.css" />
 	<link rel="stylesheet" href="css/swiperfrontpage.css" />
+	<link rel="stylesheet" href="css/swiper2landingpage.css" />
 	<link rel="stylesheet" href="css/ItinerarySample.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -425,6 +426,85 @@
 			</section>
 	</div>
 
+		<br>
+
+	<div class="container2">
+		<p class="font_7 wixui-rich-text__text" style="font-size:22px; line-height:1.6em; text-align:center;"><span style="font-size:22px;" class="wixui-rich-text__text"><span style="color:black;" class="wixui-rich-text__text"><span style="letter-spacing:0.2em;" class="wixui-rich-text__text"><span style="font-family:lulo-clean-w01-one-bold,sans-serif;" class="wixui-rich-text__text">WANT TO EMPOWER YOUR BUSINESS WITH A WEBSITE? CHECK OUT THESE SAMPLES.</span></span></span></span></p>
+		
+	<div class="container">
+<!--Website Offerings Swiper-->
+	<section id="swiper-2">
+<!-- Swiper -->
+	<div class="swiper2 mySwiper2">
+	<div class="swiper-wrapper">
+
+      	<div class="swiper-slide"><a href="ArchitectureSWD.html"><p>Engineering Website Demo</p>
+        <img src="img/ArchitectureSWD1.jpg" alt="Website 1"/></a>
+    	</div>
+
+    	<div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+      	</div>
+
+    	<div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+      	</div>
+
+      	<div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+      	</div>
+
+      	<div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+      	</div>
+
+      	<div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+      	</div>
+
+      	<div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+      	</div>
+
+      	<div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+      	</div>
+
+      	<div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+      	</div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  	</div>
+	</section>
+	</div>
+
+			<p class="custom-paragraph">UNDER CONSTRUCTION</p>
+
+
+	</div>
+
+	<br>
+
+	<div class="container2">
+		<p class="font_7 wixui-rich-text__text" style="font-size:22px; line-height:1.6em; text-align:center;"><span style="font-size:22px;" class="wixui-rich-text__text"><span style="color:black;" class="wixui-rich-text__text"><span style="letter-spacing:0.2em;" class="wixui-rich-text__text"><span style="font-family:lulo-clean-w01-one-bold,sans-serif;" class="wixui-rich-text__text">WORLD-CLASS SERVICE.</span></span></span></span></p>
+			
+			<p class="custom-paragraph"></p>
+
+
+	</div>
+
+	<br>
+
+	<div class="container2">
+		<p class="font_7 wixui-rich-text__text" style="font-size:22px; line-height:1.6em; text-align:center;"><span style="font-size:22px;" class="wixui-rich-text__text"><span style="color:black;" class="wixui-rich-text__text"><span style="letter-spacing:0.2em;" class="wixui-rich-text__text"><span style="font-family:lulo-clean-w01-one-bold,sans-serif;" class="wixui-rich-text__text">COMPETITIVE PRICING.</span></span></span></span></p>
+			
+			<p class="custom-paragraph"></p>
+
+
+	</div>
+
 	<footer>
 		<div class="container">
 			<div class="units-row">
@@ -467,7 +547,29 @@
       },
     });
   </script>
-
+  <!--Swiper 2-->
+  <script>
+    var swiper = new Swiper(".mySwiper2", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+	  autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
 	
 </body>
 </html>
