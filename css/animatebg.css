@@ -4,7 +4,7 @@
   animation: animate 15s ease infinite; /* Vendor prefix added */
 }
 .semi-whitebg {
-  height: 250vh;
+  height: 300vh;
   background: whitesmoke;
 }
 
