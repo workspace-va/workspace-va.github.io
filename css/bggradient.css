@@ -49,6 +49,18 @@ body {
   .section .container5{
     position:relative
 }
+.container6{
+  margin:auto;
+  background-color: transparent;
+  max-width:500px;
+  padding:0 20px;
+}
+.container6 .logo{
+  position:relative
+}
+.section .container6{
+    position:relative
+}
 .containercard {
   height: 700px;
   display: flex;
